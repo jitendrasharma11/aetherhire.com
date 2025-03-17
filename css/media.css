@@ -1,0 +1,20 @@
+@media only screen and (min-width:200px) and (max-width:575px){
+  .top-header{
+    display: none;
+  }
+  .footer2{
+    flex-direction: column;
+  } 
+  .copy{
+    flex-direction: column;
+  }
+  .privacy{
+    align-items: center;
+  }
+}
+
+@media only screen and (min-width:576px) and (max-width:992px){
+    .top-header{
+        display: none;
+    }  
+}

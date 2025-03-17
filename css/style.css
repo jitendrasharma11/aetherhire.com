@@ -1,0 +1,162 @@
+*{
+    font-family: "Rubik", sans-serif;
+    text-decoration: none;
+    list-style: none;
+    padding: 0px;
+}
+.top-header{
+    background-color: #E76B27;
+}
+.bg-body-tertiary{
+    background-color: white !important;
+}
+.carousel-control-prev-icon{
+    background-color: #e05b10;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+.carousel-control-next-icon {
+    background-color: #e05b10;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+.about{
+  padding: 30px 0px;
+
+}
+.jobsection{
+  background-color: #f6faff;
+  padding-top: 70px;
+}
+.jobs-icon{
+  color: #e05b10;
+}
+.service-btn{
+  background-color: #e05b10;
+  border: none;
+  padding: 15px 20px;
+  border-radius: 30px;
+}
+.service-btn:hover{
+  background-color: #545454;
+}
+.underline{
+  border-bottom: 1px solid #ccc;
+  margin-bottom: 30px;
+}
+.jobtextp{
+  text-align: justify;
+  font-size: 14px;
+  font-weight: 400;
+  color: #868686;
+}
+.industries{
+    background-color: #eff5ff;
+    padding: 100px 0px;
+}
+.know-abutus{
+  padding: 50px 0px;
+  background-color: #f6faff;
+}
+.icon-background{
+  width: 100px;
+  height: 100px;
+  background-color: #545454;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+
+}
+.know-abutus-items{
+  border: 4px solid transparent;
+}
+
+.know-abutus-items:hover{
+  border-color: #545454;
+  
+}
+.service-btn{
+  color: white;
+  text-decoration: none;
+  background-color: #e05b10;
+  border: none;
+  margin-left: 78px;
+}
+.service-items:hover{
+  transform: scale(1.04);
+  transition: 1s;
+}
+.testimonial{
+  background-color: #eff5ff;
+  padding: 70px 0px;
+}
+.round img{
+  border-radius: 50%;
+  width: 80px;
+  height: 80px;
+  object-fit: cover !important;
+}
+.f-contact{
+    width: 40px;
+    height: 40px;
+    background-color: #E76B27;
+    border-radius:50%;
+}
+ 
+.our-links{
+    margin-bottom: 50px;
+}
+.our-links ul li{
+  padding: 10px 0px;
+}
+.our-links ul li a{
+    text-decoration: none;
+    color: white;
+    list-style: none;
+}
+.newsletter {
+    background-color: black;
+    padding: 20px;
+    text-align: center;
+  }
+
+  .input-group {
+    max-width: 400px;
+    border-radius: 50px;
+    overflow: hidden;
+    background: white;
+  }
+
+  .form-control {
+    border: none;
+    border-radius: 50px 0 0 50px;
+    padding: 15px;
+    font-size: 16px;
+  }
+
+  .btn-primary {
+    background: linear-gradient(to right, #E76B27, #e05b10);
+    border: none;
+    border-radius: 0 50px 50px 0;
+    padding: 15px 25px;
+    font-size: 16px;
+  }
+
+  .btn-primary:hover {
+    background: linear-gradient(to right, #e05b10, #E76B27);
+  }
+  .f-smm{
+    width: 60px;
+    height: 60px;
+    background-color: #E76B27;
+    border-radius: 50%;
+  }
+  .bullet-icon{
+    width: 10px;
+    height: 10px;
+    background-color: #E76B27;
+  }
