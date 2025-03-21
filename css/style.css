@@ -10,25 +10,57 @@
 .bg-body-tertiary{
     background-color: white !important;
 }
-.carousel-control-prev-icon{
+#bannerSlider .carousel-control-prev-icon{
     background-color: #e05b10;
     width: 40px;
     height: 40px;
     border-radius: 50%;
 }
-.carousel-control-next-icon {
+#bannerSlider.slider-bg{
+  /* height: 760px; */
+}
+#bannerSlider .carousel-control-next-icon {
     background-color: #e05b10;
     width: 40px;
     height: 40px;
     border-radius: 50%;
+}
+.j_img {
+  width: 100%;
+  height: 600px;
+}
+#bannerSlider .carousel-caption{
+  bottom: 30%;
+}
+.j_banner{
+  position: relative;
+}
+.j_keyhighlits{
+  position: absolute;
+  top: 90%;
+  left:6%
+}
+.highlits-icon{
+  display: flex;
+  align-items: center !important;
+  justify-items: center;
+  background-color: #e05b10 !important;
+  border-radius: 50%;
+  width: 80px;
+  height: 80px;
 }
 .about{
+  background-image: url('images/ab-ani-01.png'), url('images/ab-ani-02.png');
+  background-position: left center, right center;
+  background-repeat: no-repeat, no-repeat;
+  background-size: 200px, 200px;
   padding: 30px 0px;
-
+  margin-top: 110px;
 }
 .jobsection{
   background-color: #f6faff;
   padding-top: 70px;
+
 }
 .jobs-icon{
   color: #e05b10;
@@ -55,6 +87,28 @@
 .industries{
     background-color: #eff5ff;
     padding: 100px 0px;
+}
+#industries-slider .owl-next{
+  position: absolute;
+  right: 0;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  top: 26%;
+  background-color:#868686;
+  color: white;
+  right: -51px;
+}
+#industries-slider .owl-prev{
+  position: absolute;
+  left: 0;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  top: 26%;
+  background-color: #868686;
+  color: white;
+  left: -51px;
 }
 .know-abutus{
   padding: 50px 0px;
@@ -99,6 +153,11 @@
   width: 80px;
   height: 80px;
   object-fit: cover !important;
+}
+#testimonial-slider .owl-theme .owl-dots .owl-dot{
+  width: 10px;
+  height: 4px;
+  background-color: #e05b10;
 }
 .f-contact{
     width: 40px;

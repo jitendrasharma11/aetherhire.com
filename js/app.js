@@ -1,13 +1,14 @@
 $('#industries-slider').owlCarousel({
     loop:true,
     margin:30,
-    nav:false,
+    nav:true,
     dots:false,
     autoplay:true,
     autoplayTimeout:1000,
     responsive:{
         0:{
-            items:1
+            items:1,
+            nav:false,
         },
         600:{
             items:2
@@ -21,7 +22,7 @@ $('#industries-slider').owlCarousel({
 $('#testimonial-slider').owlCarousel({
     loop:true,
     margin:30,
-    nav:false,
+    nav:true,
     dots:true,
     autoplay:true,
     autoplayTimeout:2000,
