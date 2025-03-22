@@ -9,18 +9,19 @@
   background-color: #E76B27;
 }
 
-.mobile-body{
+.mobile-body {
   background-color: #002e5b;
 }
 
-.mob-menu li{
+.mob-menu li {
   padding: 7px 0px;
 }
 
-.mob-menu li a{
+.mob-menu li a {
   text-decoration: none;
   color: white;
 }
+
 .navbar-nav li a {
   padding: 20px 0px;
 

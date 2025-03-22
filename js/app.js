@@ -58,3 +58,5 @@ $('#testimonial-slider').owlCarousel({
         }
     }
 })
+
+AOS.init();
