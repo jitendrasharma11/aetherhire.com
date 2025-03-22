@@ -50,8 +50,7 @@
         <a class="navbar-brand" href="#">
           <img src="images/Asset-1@4x-1.png" width="200px" alt="">
         </a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#mobileMenu">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
@@ -84,6 +83,42 @@
         </div>
       </div>
     </nav>
+    <!--Mobile Mneu-->
+    <div class="offcanvas offcanvas-start mobile-body" tabindex="-1" id="mobileMenu">
+      <div class="offcanvas-header">
+        <h5 class="offcanvas-title" id="offcanvasDarkLabel">
+        </h5>
+        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+      </div>
+      <div class="offcanvas-body">
+        <ul class="mob-menu">
+          <li>
+            <a href="#">Home</a>
+          </li>
+          <li>
+            <a href="#">About Us</a>
+          </li>
+          <li>
+            <a href="#">Our Services</a>
+          </li>
+          <li>
+            <a href="#">Job</a>
+          </li>
+          <li>
+            <a href="#">Blog</a>
+          </li>
+          <li>
+            <a href="#">FAQS</a>
+          </li>
+          <li>
+            <a href="#">Industry</a>
+          </li>
+          <li>
+            <a href="#">Contact Us</a>
+          </li>
+        </ul>
+      </div>
+    </div>
   </header>
   <!--Top Slider Start-->
   <section>
@@ -440,6 +475,7 @@
     </div>
   </section>
   <!--Know Aboutus End-->
+  <!--Our Service Start-->
   <section class="bg-dark py-5">
     <h2 class="text-white text-center p-5 fs-1">Our Services</h2>
     <div class="container">
@@ -464,7 +500,8 @@
                 class="card-img-top" alt="...">
               <div class="card-body">
                 <h5 class="card-title text-center">HR Policy</h5>
-                <p class="card-text text-center">we are more than just a recruitment agency; we are your strategic partner
+                <p class="card-text text-center">we are more than just a recruitment agency; we are your strategic
+                  partner
                   in talent acquisition and management.</p>
                 <button class="service-btn py-2 px-3 rounded-3">Read More</button>
               </div>
@@ -491,70 +528,17 @@
               <img src="images/gallery1.jpg" class="card-img-top" alt="...">
               <div class="card-body">
                 <h5 class="card-title text-center">Candidate Sourcing</h5>
-                <p class="card-text text-center  pt-3">Discover streamlined and effective Volume Hiring services with our
+                <p class="card-text text-center  pt-3">Discover streamlined and effective Volume Hiring services with
+                  our
                   renowned recruitment agency.</p>
                 <button class="service-btn py-2 px-3 rounded-3">Read More</button>
               </div>
             </div>
           </div>
         </div>
-     </div>
-    </div>
-  </section>
-  <!--Our Service Start-->
-  <!-- <section class="bg-dark py-5">
-    <h2 class="text-white text-center p-5 fs-1">Our Services</h2>
-    <div class="container pb-5">
-      <div class="row gy-5">
-        <div class="col-lg-3 col-md-6 service-items">
-          <div class="card">
-            <img src="images/office_happy_Prostock-Studio.jpg" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title text-center">Volume Hiring </h5>
-              <p class="card-text text-center">Organizations often find themselves in need of rapidly expanding their
-                workforce to meet growing demands.</p>
-              <button class="service-btn py-2 px-3 rounded-3">Read More</button>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-3 col-md-6 service-items">
-          <div class="card">
-            <img src="images/graphic-designer-working-with-computer-digital-tab-2023-03-13-21-45-17-utc.jpg"
-              class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title text-center">HR Policy</h5>
-              <p class="card-text text-center">we are more than just a recruitment agency; we are your strategic partner
-                in talent acquisition and management.</p>
-              <button class="service-btn py-2 px-3 rounded-3">Read More</button>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-3 col-md-6 service-items">
-          <div class="card">
-            <img src="images/man-utilizes-cloud-computing-technology-on-his-lap-2023-06-06-01-15-53-utc.jpg"
-              class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title text-center">Research and Talent Mapping</h5>
-              <p class="card-text text-center">We can provide valuable assistance in the areas of market research and
-                talent mapping. </p>
-              <button class="service-btn py-2 px-3 rounded-3">Read More</button>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-3 col-md-6 service-items">
-          <div class="card">
-            <img src="images/gallery1.jpg" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title text-center">Candidate Sourcing</h5>
-              <p class="card-text text-center  pt-3">Discover streamlined and effective Volume Hiring services with our
-                renowned recruitment agency.</p>
-              <button class="service-btn py-2 px-3 rounded-3">Read More</button>
-            </div>
-          </div>
-        </div>
       </div>
     </div>
-  </section> -->
+  </section>
   <!--Our Service End-->
   <!--What Our Client’s Start-->
   <section class="testimonial">
@@ -568,7 +552,8 @@
               Developer, ensuring a dynamic and proficient team for development.</p>
             <div class="d-flex align-items-center gap-2">
               <div class="round">
-                <img src="images/laptop-and-blank-notepad-on-a-green-background-to-2023-02-16-22-48-09-utc.jpg" width="50px" height="50px"  alt="">
+                <img src="images/laptop-and-blank-notepad-on-a-green-background-to-2023-02-16-22-48-09-utc.jpg"
+                  width="50px" height="50px" alt="">
               </div>
               <div class="row">
                 <h4>Software</h4>
@@ -632,71 +617,77 @@
       <div class="row py-4 gy-5">
         <div class="col-lg-4">
           <div class="shadow bg-white">
-             <img src="images/the-jopwell-collection-rxoIIF5nxSg-unsplash.jpg" width="100%" height="250px" alt="">
-             <div class="px-4">
+            <img src="images/the-jopwell-collection-rxoIIF5nxSg-unsplash.jpg" width="100%" height="250px" alt="">
+            <div class="px-4">
               <div class="d-flex py-3  gap-5">
                 <div class="d-flex align-items-center mb-0 gap-2">
-                 <i class="fa-solid fa-user"></i>
-                 <span> aetherhire</span>
+                  <i class="fa-solid fa-user"></i>
+                  <span> aetherhire</span>
                 </div>
                 <div class="d-flex align-items-center mb-0 gap-2">
-                 <i class="fa-solid fa-calendar-days"></i>
-                 <span> May 15, 2024</span>
+                  <i class="fa-solid fa-calendar-days"></i>
+                  <span> May 15, 2024</span>
                 </div>
               </div>
               <p class="text-secondary mb-3">Application to Interview</p>
-              <p class="text-secondary pb-2">The world of engineering is a dynamic and ever-evolving landscape, brimming with exciting opportunities and hence path for Application to Interview is the most relevant. Whether you’re a recent graduate eager to embark on your …..</p>
+              <p class="text-secondary pb-2">The world of engineering is a dynamic and ever-evolving landscape, brimming
+                with exciting opportunities and hence path for Application to Interview is the most relevant. Whether
+                you’re a recent graduate eager to embark on your …..</p>
               <div class="d-flex align-items-center gap-2 pb-4">
                 <i class="fa-solid fa-angle-right"></i>
                 <span> <a href="#" class="text-secondary">Read More</a></span>
               </div>
-             </div>
+            </div>
           </div>
         </div>
         <div class="col-lg-4">
           <div class="shadow bg-white">
-             <img src="images/cdc-p33DqVXhWvs-unsplash-scaled.jpg" width="100%" height="250px" alt="">
-             <div class="px-4">
+            <img src="images/cdc-p33DqVXhWvs-unsplash-scaled.jpg" width="100%" height="250px" alt="">
+            <div class="px-4">
               <div class="d-flex py-3  gap-5">
                 <div class="d-flex align-items-center mb-0 gap-2">
-                 <i class="fa-solid fa-user"></i>
-                 <span> aetherhire</span>
+                  <i class="fa-solid fa-user"></i>
+                  <span> aetherhire</span>
                 </div>
                 <div class="d-flex align-items-center mb-0 gap-2">
-                 <i class="fa-solid fa-calendar-days"></i>
-                 <span> May 7, 2024</span>
+                  <i class="fa-solid fa-calendar-days"></i>
+                  <span> May 7, 2024</span>
                 </div>
               </div>
               <p class="text-secondary mb-3">Healthcare careers</p>
-              <p class="text-secondary pb-2">The healthcare industry is a vast and ever-evolving field that offers a multitude of rewarding career paths. Whether you’re drawn to direct patient care, cutting-edge research, or ……</p>
+              <p class="text-secondary pb-2">The healthcare industry is a vast and ever-evolving field that offers a
+                multitude of rewarding career paths. Whether you’re drawn to direct patient care, cutting-edge research,
+                or ……</p>
               <div class="d-flex align-items-center gap-2 pb-4">
                 <i class="fa-solid fa-angle-right"></i>
                 <span> <a href="#" class="text-secondary">Read More</a></span>
               </div>
-             </div>
+            </div>
           </div>
         </div>
         <div class="col-lg-4">
           <div class="shadow bg-white">
-             <img src="images/faizur-rehman-pHPzdEHN6Os-unsplash-scaled.jpg" width="100%" height="250px" alt="">
-             <div class="px-4">
+            <img src="images/faizur-rehman-pHPzdEHN6Os-unsplash-scaled.jpg" width="100%" height="250px" alt="">
+            <div class="px-4">
               <div class="d-flex py-3  gap-5">
                 <div class="d-flex align-items-center mb-0 gap-2">
-                 <i class="fa-solid fa-user"></i>
-                 <span> aetherhire</span>
+                  <i class="fa-solid fa-user"></i>
+                  <span> aetherhire</span>
                 </div>
                 <div class="d-flex align-items-center mb-0 gap-2">
-                 <i class="fa-solid fa-calendar-days"></i>
-                 <span> April 21, 2024</span>
+                  <i class="fa-solid fa-calendar-days"></i>
+                  <span> April 21, 2024</span>
                 </div>
               </div>
               <p class="text-secondary mb-3">Strategies for Success</p>
-              <p class="text-secondary pb-2">Remote work has become increasingly prevalent, offering flexibility and convenience for employees. However, for introverted individuals, remote work presents unique challenges and opportunities. In this article, we’ll …</p>
+              <p class="text-secondary pb-2">Remote work has become increasingly prevalent, offering flexibility and
+                convenience for employees. However, for introverted individuals, remote work presents unique challenges
+                and opportunities. In this article, we’ll …</p>
               <div class="d-flex align-items-center gap-2 pb-4">
                 <i class="fa-solid fa-angle-right"></i>
                 <span> <a href="#" class="text-secondary">Read More</a></span>
               </div>
-             </div>
+            </div>
           </div>
         </div>
       </div>

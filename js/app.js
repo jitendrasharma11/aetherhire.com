@@ -35,7 +35,6 @@ $('#service-slider').owlCarousel({
         },
         1000:{
             items:4,
-            nav: true
         }
     }
 })
@@ -46,7 +45,7 @@ $('#testimonial-slider').owlCarousel({
     nav:false,
     dots:true,
     autoplay:false,
-    autoplayTimeout:2000,
+    autoplayTimeout:1000,
     responsive:{
         0:{
             items:1
