@@ -7,6 +7,13 @@
 .top-header{
     background-color: #E76B27;
 }
+.navbar-nav li a{
+  padding: 20px 0px;
+  
+}
+.navbar-nav li{
+  margin: 10px;
+}
 .bg-body-tertiary{
     background-color: white !important;
 }
@@ -16,14 +23,20 @@
     height: 40px;
     border-radius: 50%;
 }
-#bannerSlider.slider-bg{
-  /* height: 760px; */
+.myHeadingSlider{
+  font-size: 77px;
+  color: white;
 }
+
 #bannerSlider .carousel-control-next-icon {
     background-color: #e05b10;
     width: 40px;
     height: 40px;
     border-radius: 50%;
+}
+
+#bannerSlider p{
+  font-size: 20px;
 }
 .j_img {
   width: 100%;
@@ -50,8 +63,8 @@
   height: 80px;
 }
 .about{
-  background-image: url('images/ab-ani-01.png'), url('images/ab-ani-02.png');
-  background-position: left center, right center;
+  background-image: url('../images/ab-ani-01.png'), url('../images/ab-ani-02.png');
+  background-position: left top, right center;
   background-repeat: no-repeat, no-repeat;
   background-size: 200px, 200px;
   padding: 30px 0px;
@@ -125,8 +138,16 @@
 
 
 }
+#service-slider .owl-carousel .owl-stage-outer {
+  position: relative;
+  /* overflow: hidden; */
+  -webkit-transform: translate3d(0, 0, 0);
+}
 .know-abutus-items{
   border: 4px solid transparent;
+}
+.item .card{
+
 }
 
 .know-abutus-items:hover{
@@ -140,24 +161,71 @@
   border: none;
   margin-left: 78px;
 }
-.service-items:hover{
+.owl-carousel .item:hover{
   transform: scale(1.04);
   transition: 1s;
+}
+
+.owl-nav{
+  display: block !important;
+}
+#service-slider .owl-next{
+  position: absolute;
+  right: 0;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  top: 54%;
+  background-color: #545454;
+  color: white;
+  right: -34px;
+}
+.owl-item{
+  padding: 15px !important;
+}
+#service-slider .owl-prev{
+  position: absolute;
+  left: 0;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  top: 51%;
+  background-color: #545454;
+  color: white;
+  left: -34px;
 }
 .testimonial{
   background-color: #eff5ff;
   padding: 70px 0px;
 }
-.round img{
-  border-radius: 50%;
-  width: 80px;
+.round img {
+  width: 80px !important;
   height: 80px;
-  object-fit: cover !important;
+  border-radius: 50% !important;
 }
 #testimonial-slider .owl-theme .owl-dots .owl-dot{
   width: 10px;
   height: 4px;
   background-color: #e05b10;
+}
+.blog{
+  background-image: url('../images/p-shape02.png'), url('../images/p-shape02.png');
+  background-position: -11% 11%, right center;
+  background-repeat: no-repeat, no-repeat;
+  z-index: -99;
+  padding: 30px 0px;
+
+} 
+
+.blog-btn{
+  color: white;
+  background-color: #e05b10;
+  padding: 15px 25px;
+  border-radius: 20px;
+  border: none;
+}
+.blog-btn:hover{
+  background-color: #545454;
 }
 .f-contact{
     width: 40px;
@@ -219,3 +287,4 @@
     height: 10px;
     background-color: #E76B27;
   }
+

@@ -7,13 +7,9 @@
     height: 256px;
 }
   .j_keyhighlits {
-    position: absolute;
-    top: 44%;
-    left: 1.5%;
+    position: unset;
 }
-.about{
-  margin-top: 590px;
-}
+
   .footer2{
     flex-direction: column;
   } 
@@ -30,10 +26,6 @@
         display: none;
     }
     .j_keyhighlits {
-      top: 165%;
-      left: 7%;
-  }
-  .about{
-    margin-top: 271px;
+      position: unset;
   }
 }

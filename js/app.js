@@ -18,13 +18,34 @@ $('#industries-slider').owlCarousel({
         }
     }
 })
+$('#service-slider').owlCarousel({
+    loop:true,
+    margin:0,
+    nav:true,
+    dots:false,
+    autoplay:false,
+    autoplayTimeout:1000,
+    responsive:{
+        0:{
+            items:1,
+            nav:false,
+        },
+        600:{
+            items:2
+        },
+        1000:{
+            items:4,
+            nav: true
+        }
+    }
+})
 
 $('#testimonial-slider').owlCarousel({
     loop:true,
     margin:30,
-    nav:true,
+    nav:false,
     dots:true,
-    autoplay:true,
+    autoplay:false,
     autoplayTimeout:2000,
     responsive:{
         0:{
